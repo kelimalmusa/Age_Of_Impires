@@ -1,0 +1,25 @@
+.mat-mdc-table {
+  width: 100%;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.mat-elevation-z8 {
+  box-shadow: none !important;
+
+}
+
+.mat-paginator-sticky {
+  bottom: 0px;
+  position: sticky;
+  z-index: 10;
+}
+
+.container {
+  font-size: 1.1rem !important;
+}
+
+.mat-mdc-row:hover .mat-mdc-cell {
+  background-color: rgb(243 244 246);
+  cursor: pointer;
+}
